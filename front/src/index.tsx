@@ -7,10 +7,13 @@ import { GoogleOAuthProvider } from "@react-oauth/google"
 // Components
 import { ThemeProvider } from './Components/Theme/ThemeContext';
 
+// Global Veribales
+import { GOOGLE_CLIENT_ID } from './Assets/GlobalVeriables';
+
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
 root.render(
-  <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID!}>
+  <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID!}>
     <ThemeProvider>
       <App />
     </ThemeProvider>
