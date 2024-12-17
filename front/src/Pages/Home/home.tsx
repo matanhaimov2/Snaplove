@@ -5,7 +5,7 @@ import { useMediaQuery } from 'react-responsive'
 import './home.css';
 
 // Images
-import logo from '../../Assets/Images/tinder-main-logo2.png'
+import logo from '../../Assets/Images/SnapLove_phone_logo.png'
 
 // React Icons
 import { FaUserCircle } from "react-icons/fa";
@@ -13,7 +13,7 @@ import { LuArrowLeftSquare } from "react-icons/lu";
 import { LuArrowRightSquare } from "react-icons/lu";
 import { PiUserFill } from "react-icons/pi";
 import { PiChatsCircleFill } from "react-icons/pi";
-import { SiTinder } from "react-icons/si";
+import { MdSwipe } from "react-icons/md";
 
 // React MUI
 import Box from '@mui/material/Box';
@@ -98,7 +98,7 @@ export default function Home() {
 
     // Phone bottom-nav - nav between tabs
     const phoneTabs: Tab[] = [
-        { id: 'home', icon: <SiTinder />, label: 'Home' },
+        { id: 'home', icon: <MdSwipe />, label: 'Home' },
         { id: 'chats', icon: <PiChatsCircleFill />, label: 'Chats' },
         { id: 'profile', icon: <PiUserFill />, label: 'Profile' },
     ];

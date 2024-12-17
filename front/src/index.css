@@ -1,13 +1,18 @@
 :root {
-  --primary-color: #ff4458;
-  --secondary-color: #d43e73; /* used for titles, progress*/
-  --default-button-bg: linear-gradient(45deg, #eb3131, #d43e73 ); /* used for main buttons*/
-  --primary-button-bg: #ff4458; /* used for ordinary buttons*/
-  --primary-button-bg-hover: #e02c4f; /* Hover background color */
-  --inactive-tab-color: #7c8591; /* Gray for inactive tabs */
-  --like-color: #2cf2a2; /* Green for "like" */
-  --dislike-color: #f22c59; /* Red for "dislike" */
-  --slider-track-color: #ff4458; /* Light gray for the unfilled part of the slider */
+  --primary-color: #FF6F61; /* Warm Coral Red */
+  --secondary-color: #2C2C2C; /* Soft Charcoal Black */
+  --default-button-bg: linear-gradient(45deg, #FF6F61, #FFB3A1); /* Vibrant Gradient for Buttons */
+  --primary-button-bg: #FF6F61; /* Solid Coral Red Button */
+  --primary-button-bg-hover: #FF8A80; /* Lighter Red for Hover */
+  --secondary-button-bg: #F5F5F5; /* Light Gray for Secondary Buttons */
+  --secondary-button-text: #FF6F61; /* Coral Red Text for Secondary Buttons */
+  --inactive-tab-color: #A9A9A9; /* Soft Light Gray for Inactive Tabs */
+  --like-color: #2cf2a2; /* Coral Red for Like */
+  --dislike-color: #FF3B30; /* Soft Red for Dislike */
+  --slider-track-color: #FF6F61; /* Coral Red for Slider Track */
+  --slider-rail-color: #F5F5F5; /* Light Gray for Unfilled Track */
+  --background-color: #FFFFFF; /* Bright White Background */
+  --text-color: #2C2C2C; /* Dark Gray Text */
 }
 
 body {

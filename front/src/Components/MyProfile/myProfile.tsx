@@ -146,19 +146,27 @@ function MyProfile() {
                     aria-label="Distance"
                     min={1}
                     max={161}
-                    valueLabelDisplay="auto"  // This will show the value in km
+                    valueLabelDisplay="auto" // This will show the value in km
                     sx={{
-                        color: 'var(--slider-track-color)',  // Adjust the slider color (similar to Tinder's primary color)
+                        color: 'var(--slider-track-color)', // Coral Red for the track
                         '& .MuiSlider-thumb': {
                             borderRadius: '50%',
-                            backgroundColor: 'var(--slider-track-color)',
+                            backgroundColor: 'var(--slider-track-color)', // Thumb matches track color
+                            '&:hover, &.Mui-focusVisible': {
+                                boxShadow: '0px 0px 0px 8px rgba(255, 110, 80, 0.3)', // Soft glow on hover (light orange)
+                            },
                         },
                         '& .MuiSlider-rail': {
                             opacity: 0.5,
-                            backgroundColor: '#bfbfbf',
+                            backgroundColor: 'var(--slider-rail-color)', // Light Gray for the rail
+                        },
+                        '& .MuiSlider-track': {
+                            background: 'linear-gradient(90deg, #FF6F61, #FFB3A1)', // Gradient for track (Vibrant Coral to Soft Peach)
+                            border: 'none',
                         },
                     }}
                 />
+
             </div>
 
             <div className='myProfile-underline-separator' /> {/* underline separator */}
@@ -238,14 +246,21 @@ function MyProfile() {
                     valueLabelDisplay="auto"
                     min={18}
                     sx={{
-                        color: 'var(--slider-track-color)',  // Adjust the slider color (similar to Tinder's primary color)
+                        color: 'var(--slider-track-color)', // Coral Red for the track
                         '& .MuiSlider-thumb': {
                             borderRadius: '50%',
-                            backgroundColor: 'var(--slider-track-color)',
+                            backgroundColor: 'var(--slider-track-color)', // Thumb matches track color
+                            '&:hover, &.Mui-focusVisible': {
+                                boxShadow: '0px 0px 0px 8px rgba(255, 110, 80, 0.3)', // Soft glow on hover (light orange)
+                            },
                         },
                         '& .MuiSlider-rail': {
                             opacity: 0.5,
-                            backgroundColor: '#bfbfbf',
+                            backgroundColor: 'var(--slider-rail-color)', // Light Gray for the rail
+                        },
+                        '& .MuiSlider-track': {
+                            background: 'linear-gradient(90deg, #FF6F61, #FFB3A1)', // Gradient for track (Vibrant Coral to Soft Peach)
+                            border: 'none',
                         },
                     }}
                 />
