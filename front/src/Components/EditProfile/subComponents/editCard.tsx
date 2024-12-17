@@ -370,7 +370,7 @@ function EditCard({ isSaveUpdates, setIsSaveUpdates }: SaveData) {
                     <button className='editProfile-save-button' onClick={() => setIsSaveUpdates(true)}> Save </button>
                 ) : (
                     <div>
-                        <CircularProgress sx={{ color: '#d43e73 ' }} />
+                        <CircularProgress sx={{ color: 'var(--primary-color)' }} />
                     </div>
                 )}
             </div>

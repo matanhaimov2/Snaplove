@@ -69,7 +69,7 @@ function Matches({ matches, withFilteredConv }: UserMatchProps) {
                     <div className='matches-swiping-match-phone-wrapper'>
                         {!matches ? (
                             <div className='matches-circular'>
-                                <CircularProgress sx={{ color: '#d43e73 ' }} />
+                                <CircularProgress sx={{ color: 'var(--primary-color)' }} />
                             </div>
                         ) : matches.length > 0 ? (
                             <>
@@ -100,7 +100,7 @@ function Matches({ matches, withFilteredConv }: UserMatchProps) {
                 <>
                     {!matches ? (
                         <div className='matches-circular'>
-                            <CircularProgress sx={{ color: '#d43e73 ' }} />
+                            <CircularProgress sx={{ color: 'var(--primary-color)'}} />
                         </div>
                     ) : matches.length > 0 ? (
                         <>

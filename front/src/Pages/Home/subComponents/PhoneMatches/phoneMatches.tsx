@@ -2,8 +2,8 @@
 import './phoneMatches.css';
 
 // Images
-import logo from '../../../../Assets/Images/tinder-main-logo2.png'
-
+// import logo from '../../../../Assets/Images/tinder-main-logo2.png'
+import logo from '../../../../Assets/Images/SnapLove_phone_logo.png'
 // Components
 import Matches from '../Matches/matches';
 import Messages from '../Messages/messages';

@@ -108,7 +108,7 @@ export default function DeleteAccount() {
                             </div>
                         </Paper>
                     ) : (
-                        <CircularProgress sx={{ color: 'var(--secondary-color)' }} />
+                        <CircularProgress sx={{ color: 'var(--primary-color)' }} />
                     )}
                 </Box>
             </Backdrop>

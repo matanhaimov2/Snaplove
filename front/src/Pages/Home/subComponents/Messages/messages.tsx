@@ -61,7 +61,7 @@ function Messages({ messages }: UserMatchProps) {
             <div style={{ overflowY: 'auto', overflowX: 'hidden' }}>
                 {!messages ? (
                     <div className='messages-circular'>
-                        <CircularProgress sx={{ color: '#d43e73 ' }} />
+                        <CircularProgress sx={{ color: 'var(--primary-color)' }} />
                     </div>
                 ) : messages.length > 0 ? (
                     <>

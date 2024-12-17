@@ -14,7 +14,7 @@ function Landing () {
     return (
         <div className='landing-wrapper'>
             <div className='landing-title-wrapper'>
-                <span className='landing-title'> Swipe Right </span>
+                <span className='landing-title'> Love Awaits </span>
             </div>
 
             <div className='landing-register-button-wrapper'>

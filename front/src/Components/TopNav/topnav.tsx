@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './topnav.css';
 
 // Images
-import tinder_logo from '../../Assets/Images/tinder_main_logo.png';
+import snaplove_logo from '../../Assets/Images/SnapLove_Logo.png'
 
 // Components
 import Login from '../Login/login';
@@ -16,7 +16,7 @@ function TopNav () {
     return (
         <div className='topnav-wrapper'>
             <div className='topnav-logo-wrapper'>
-                <img src={tinder_logo} alt="Tinder Logo" className='topnav-logo' />
+                <img src={snaplove_logo} alt="Tinder Logo" className='topnav-logo' />
             </div>
 
             <div className='topnav-login-button-wrapper'>

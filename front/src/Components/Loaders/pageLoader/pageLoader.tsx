@@ -2,13 +2,13 @@
 import './pageLoader.css';
 
 // Images
-import tinder_icon from '../../../Assets/Images/tinder_fire_white_logo.png'
+import snap_icon from '../../../Assets/Images/SnapLove_Icon.png'
 
 function PageLoader() {
 
     return (
         <div className='pageLoader-wrapper'>
-            <img className='pageLoader-img' src={tinder_icon}></img>
+            <img className='pageLoader-img' src={snap_icon}></img>
         </div>
     );
 }

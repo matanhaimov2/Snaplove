@@ -4,7 +4,7 @@ import React, { useEffect, useRef } from 'react';
 import './register.css';
 
 // Images
-import tinder_icon from '../../Assets/Images/tinder_fire_logo.png';
+import snap_icon from '../../Assets/Images/SnapLove_Icon.png'
 
 // React MUI
 import Sheet from '@mui/joy/Sheet';
@@ -75,7 +75,7 @@ function Register({ isRegisterOpen, setIsRegisterOpen }: RegisterProps) {
                 >
                     <div className='register-tinder-content-wrapper'>
                         <div className='register-tinder-icon-wrapper'>
-                            <img className='register-tinder-icon' src={tinder_icon}></img>
+                            <img className='register-tinder-icon' src={snap_icon}></img>
                         </div>
 
                         <div className='register-tinder-title-wrapper'>

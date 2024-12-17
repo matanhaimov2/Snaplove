@@ -86,7 +86,7 @@ export default function UnMatch({ room_id }: UnmatchProps) {
 
     return (
         <div>
-            <Button style={{fontFamily: 'Montserrat, sans-serif'}} onClick={() => setOpen(true)}>Unmatch</Button>
+            <Button sx={{fontFamily: 'Montserrat, sans-serif'}} onClick={() => setOpen(true)}>Unmatch</Button>
             <Backdrop open={open} sx={(theme) => ({ color: '#fff', zIndex: theme.zIndex.drawer + 1 })}>
                 <Box ref={closeRef}
                     sx={{
@@ -124,7 +124,7 @@ export default function UnMatch({ room_id }: UnmatchProps) {
                             </div>
                         </Paper>
                     ) : (
-                        <CircularProgress sx={{ color: 'var(--secondary-color)' }} />
+                        <CircularProgress sx={{ color: 'var(--primary-color)' }} />
                     )}
 
                 </Box>

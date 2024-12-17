@@ -50,7 +50,7 @@
     align-items: center;
     flex-direction: column;
     height: 120px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: bold;
     letter-spacing: 1px;
     font-size: 110%;

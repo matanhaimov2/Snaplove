@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import './setprofile.css';
 
 // Images
-import tinder_icon from '../../Assets/Images/tinder_fire_logo.png';
+import snap_icon from '../../Assets/Images/SnapLove_Icon.png'
 
 // React MUI
 import Sheet from '@mui/joy/Sheet';
@@ -198,7 +198,7 @@ function SetProfile() {
                     >
                         <div className='login-tinder-content-wrapper'>
                             <div className='login-tinder-icon-wrapper'>
-                                <img className='login-tinder-icon' src={tinder_icon} alt='Tinder Icon'></img>
+                                <img className='login-tinder-icon' src={snap_icon} alt='Tinder Icon'></img>
                             </div>
 
                             <div className='login-tinder-title-wrapper'>
