@@ -208,7 +208,7 @@ function Conversation({ room_id, first_name, user_img, setIsConversationOpen, is
                 <div className="conversation-messages-inner" id='messagesContainer' ref={messagesEndRef}>
                     {loading ? (
                         <div className='conversation-circular'>
-                            <CircularProgress sx={{ color: 'var(--secondary-color)' }} />
+                            <CircularProgress sx={{ color: 'var(--primary-color)' }} />
                         </div>
                     ) : messages.length > 0 ? (
                         messages.map((message, i) => {

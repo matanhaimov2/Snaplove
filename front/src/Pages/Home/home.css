@@ -147,6 +147,10 @@
     color: #7c8591;
 }
 
+.home-img-phone-wrapper {
+    padding: 3% 2%;
+}
+
 /* Handle Responsive */
 
 @media (max-width: 1000px) {
