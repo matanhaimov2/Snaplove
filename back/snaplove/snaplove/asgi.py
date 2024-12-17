@@ -1,5 +1,5 @@
 """
-ASGI config for tinder project.
+ASGI config for snaplove project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 

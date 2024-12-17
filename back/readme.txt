@@ -1,4 +1,4 @@
-git clone https://github.com/matanhaimov2/Tinder.git dev
+git clone https://github.com/matanhaimov2/Snaplove.git dev
 
 Create a Virtual Environment:
     python -m venv venv
