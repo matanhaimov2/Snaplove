@@ -1,8 +1,5 @@
-// Localhost address
-export const SERVER_URL = 'http://127.0.0.1:8000';
-
-// Domain address
-export const DOMAIN = '127.0.0.1:8000';
-
-// Images
-export const IMAGE_BB_key = '743a948f3f33812cffbd9c66d36ac08d';
+export const SERVER_URL = process.env.REACT_APP_SERVER_URL;
+export const DOMAIN = process.env.REACT_APP_DOMAIN;
+export const IMAGE_BB_key = process.env.REACT_APP_IMAGE_BB_KEY;
+export const GOOGLE_API_KEY = process.env.REACT_APP_GOOGLE_API_KEY;
+export const GOOGLE_CLIENT_ID = process.env.REACT_APP_GOOGLE_CLIENT_ID;

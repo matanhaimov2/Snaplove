@@ -30,6 +30,9 @@ import useAxiosPrivate from "./Hooks/usePrivate"
 // Services
 import { healthCheck } from './Services/administrationService';
 
+// Global Veribales
+import { GOOGLE_API_KEY } from './Assets/GlobalVeriables';
+
 // For Components With Topnav
 const ComponentsWithNav = () => {
   return (
@@ -114,7 +117,7 @@ function App() {
   useEffect(() => {
     const loadGoogleMapsScript = () => {
       const script = document.createElement('script');
-      script.src = `https://maps.googleapis.com/maps/api/js?key=${process.env.REACT_APP_GOOGLE_API_KEY}&libraries=places&loading=async`;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${GOOGLE_API_KEY}&libraries=places&loading=async`;
       script.async = true;
       script.defer = true;
       document.head.appendChild(script);
