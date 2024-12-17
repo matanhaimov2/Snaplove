@@ -72,7 +72,7 @@ MIDDLEWARE = [
     'django.middleware.common.CommonMiddleware',
 ]
 
-ASGI_APPLICATION = 'tinder.asgi.application'
+ASGI_APPLICATION = 'snaplove.asgi.application'
 
 if USE_LOCAL_CACHE:
     CHANNEL_LAYERS = {
@@ -93,7 +93,7 @@ else:
         },
     }
 
-ROOT_URLCONF = 'tinder.urls'
+ROOT_URLCONF = 'snaplove.urls'
 
 # Allow all credentials for CORS
 CORS_ALLOW_CREDENTIALS = True
@@ -187,7 +187,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tinder.wsgi.application'
+WSGI_APPLICATION = 'snaplove.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
@@ -196,7 +196,7 @@ if USE_LOCAL_DB:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql', # Using PostgreSQL as the database engine
-            'NAME': 'tinder-db', # The name of the local PostgreSQL database
+            'NAME': 'snaplove-db', # The name of the local PostgreSQL database
             'USER': 'postgres', # Local database username (default for PostgreSQL)
             'PASSWORD': 'Matan2004', # Local database password
             'HOST': '127.0.0.1', # The host address for the local database (127.0.0.1 means localhost)
@@ -206,10 +206,10 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql', # Using PostgreSQL as the database engine
-            'NAME': 'pg-tinder', # The name of the remote PostgreSQL database (on the server)
-            'USER': 'pg-tinder_owner', # The username for the server's PostgreSQL database
+            'NAME': 'pg-snaplove', # The name of the remote PostgreSQL database (on the server)
+            'USER': 'pg-snaplove_owner', # The username for the server's PostgreSQL database
             'PASSWORD': NEON_PASSWORD, # Fetch the PostgreSQL password from the environment
-            'HOST': 'ep-billowing-shape-a2pshy9e.eu-central-1.aws.neon.tech', # The host address of the PostgreSQL server
+            'HOST': 'ep-still-king-a2dzq3tq.eu-central-1.aws.neon.tech', # The host address of the PostgreSQL server
             'PORT': '5432', # The port for connecting to the PostgreSQL server (default port is usually 5432)
         }
     }
