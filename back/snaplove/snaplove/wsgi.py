@@ -1,5 +1,5 @@
 """
-WSGI config for tinder project.
+WSGI config for snaplove project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
