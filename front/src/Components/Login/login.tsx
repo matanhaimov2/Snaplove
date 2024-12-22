@@ -76,12 +76,12 @@ function Login({ isLoginOpen, setIsLoginOpen }: LoginProps) {
 
                     variant="outlined"
                 >
-                    <div className='login-tinder-content-wrapper'>
-                        <div className='login-tinder-icon-wrapper'>
-                            <img className='login-tinder-icon' src={snap_icon} alt='Tinder Icon'></img>
+                    <div className='login-snaplove-content-wrapper'>
+                        <div className='login-snaplove-icon-wrapper'>
+                            <img className='login-snaplove-icon' src={snap_icon} alt='snaplove Icon'></img>
                         </div>
 
-                        <div className='login-tinder-title-wrapper'>
+                        <div className='login-snaplove-title-wrapper'>
                             <h1>Get Started</h1>
                         </div>
                     </div>

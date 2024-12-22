@@ -16,7 +16,7 @@ function TopNav () {
     return (
         <div className='topnav-wrapper'>
             <div className='topnav-logo-wrapper'>
-                <img src={snaplove_logo} alt="Tinder Logo" className='topnav-logo' />
+                <img src={snaplove_logo} alt="snaplove Logo" className='topnav-logo' />
             </div>
 
             <div className='topnav-login-button-wrapper'>

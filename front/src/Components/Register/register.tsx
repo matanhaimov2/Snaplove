@@ -73,12 +73,12 @@ function Register({ isRegisterOpen, setIsRegisterOpen }: RegisterProps) {
                     }}
                     variant="outlined"
                 >
-                    <div className='register-tinder-content-wrapper'>
-                        <div className='register-tinder-icon-wrapper'>
-                            <img className='register-tinder-icon' src={snap_icon}></img>
+                    <div className='register-snaplove-content-wrapper'>
+                        <div className='register-snaplove-icon-wrapper'>
+                            <img className='register-snaplove-icon' src={snap_icon}></img>
                         </div>
 
-                        <div className='register-tinder-title-wrapper'>
+                        <div className='register-snaplove-title-wrapper'>
                             <h1>Create account</h1>
                         </div>
                     </div>

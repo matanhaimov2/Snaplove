@@ -351,10 +351,10 @@ function CardProfile({ isInEditProfile }: EditProfile) {
                     <div style={{ height: '1px', backgroundColor: 'grey' }} /> {/* underline separator */}
 
                     <div className='cardProfile-nav-card'>
-                        <div className="tinder-button heart-button" style={{ backgroundColor: theme === 'dark' ? 'black' : 'white' }}>
+                        <div className="snaplove-button heart-button" style={{ backgroundColor: theme === 'dark' ? 'black' : 'white' }}>
                             <TiHeart className="icon" onClick={() => handleUserAction('like')} />
                         </div>
-                        <div className="tinder-button dislike-button" style={{ backgroundColor: theme === 'dark' ? 'black' : 'white' }}>
+                        <div className="snaplove-button dislike-button" style={{ backgroundColor: theme === 'dark' ? 'black' : 'white' }}>
                             <TiDelete className="icon" onClick={() => handleUserAction('dislike')} />
                         </div>
                     </div>

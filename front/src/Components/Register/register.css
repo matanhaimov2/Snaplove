@@ -19,22 +19,22 @@
     z-index: 2;
 }
 
-.register-tinder-content-wrapper {
+.register-snaplove-content-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.register-tinder-icon-wrapper {
+.register-snaplove-icon-wrapper {
     display: flex;
     justify-content: center;
 }
 
-.register-tinder-icon {
+.register-snaplove-icon {
     width: 65px;
     height: fit-content;
 }
 
-.register-tinder-title-wrapper {
+.register-snaplove-title-wrapper {
     display: flex;
     justify-content: center;
 }
