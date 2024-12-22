@@ -19,22 +19,22 @@
     z-index: 2;
 }
 
-.login-tinder-content-wrapper {
+.login-snaplove-content-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.login-tinder-title-wrapper {
+.login-snaplove-title-wrapper {
     display: flex;
     justify-content: center;
 }
 
-.login-tinder-icon-wrapper {
+.login-snaplove-icon-wrapper {
     display: flex;
     justify-content: center;
 }
 
-.login-tinder-icon {
+.login-snaplove-icon {
     width: 65px;
     height: fit-content;
 }
