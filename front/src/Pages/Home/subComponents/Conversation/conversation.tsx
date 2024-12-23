@@ -16,7 +16,7 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../../../Redux/store';
 
 // Assets
-import { DOMAIN, SERVER_URL } from "../../../../Assets/GlobalVeriables";
+import { DOMAIN, SERVER_URL, WS_PROTOCOL } from "../../../../Assets/GlobalVeriables";
 
 // Hooks
 import useAxiosPrivate from '../../../../Hooks/usePrivate';
@@ -56,7 +56,7 @@ function Conversation({ room_id, first_name, user_img, setIsConversationOpen, is
 
     useEffect(() => {
         // Connect to the WebSocket server with the username as a query parameter
-        const newSocket = new WebSocket(`ws://${DOMAIN}/ws/chat/${room_id}/`);
+        const newSocket = new WebSocket(`${WS_PROTOCOL}${DOMAIN}/ws/chat/${room_id}/`);
         setSocket(newSocket);
 
         newSocket.onopen = () => {

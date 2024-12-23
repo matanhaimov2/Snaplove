@@ -14,11 +14,6 @@
     padding-block: 1%;
 }
 
-.MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer {
-    display: flex;
-    justify-content: space-evenly;
-}
-
 /* Second Div - card wrapper */
 .editProfile-card-wrapper {
     flex: 1;

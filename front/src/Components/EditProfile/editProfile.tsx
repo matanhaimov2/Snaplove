@@ -42,6 +42,7 @@ function EditProfile() {
                                     sx={{
                                         color: tabValue === tab.value ? 'var(--primary-color)' : 'var(--inactive-tab-color)',
                                         textTransform: 'none',
+                                        margin: 'auto',
                                         fontSize: '120%',
                                         borderRadius: '5px',
                                         fontWeight: '600',
