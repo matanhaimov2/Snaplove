@@ -33,6 +33,7 @@
     background-position: center center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents repeating */
     background-attachment: scroll; /* Background scrolls with the content */
+    touch-action: none; /* Prevent default touch actions like scrolling */
 }
 
 .cardProfile-user-images-nav-wrapper {

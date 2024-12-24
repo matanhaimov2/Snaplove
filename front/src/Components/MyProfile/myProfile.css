@@ -40,7 +40,7 @@
 }
 
 div#interest-select {
-    width: 7vw; /* try to understand why percentage doesnt work */
+    width: 10vw; /* try to understand why percentage doesnt work */
     padding: unset;
     padding-block: 3%;
 }
@@ -51,5 +51,9 @@ div#interest-select {
 @media (max-width: 760px) {
     .myProfile-wrapper {
         padding-top: 5%;
+    }
+
+    div#interest-select {
+        width: 30vw;
     }
 }
