@@ -68,6 +68,10 @@ function Conversation({ room_id, first_name, user_img, setIsConversationOpen, is
             }
         };
 
+        newSocket.onerror = (error) => {
+            console.error("WebSocket error:", error);
+        };
+
         newSocket.onclose = () => {
             console.log("WebSocket disconnected")
 
