@@ -176,7 +176,7 @@ function SetProfile() {
 
 
     return (
-        <div style={{height: '100vh'}}>
+        <div className='setprofile-outer-wrapper'>
             <form className='setprofile-wrapper' onSubmit={handleSubmit}>
                 <div className='setprofile-inner-wrapper'>
                     <Sheet

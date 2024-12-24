@@ -172,6 +172,7 @@
     .cardProfile-wrapper {
         width: 100%;
         height: 75vh;
+        height: 75svh;
         box-shadow: none;
     }
 

@@ -1,3 +1,8 @@
+.setprofile-outer-wrapper {
+    height: 100vh;
+    height: 100svh;
+}
+
 .setprofile-wrapper {
     width: 100%;
     height: -webkit-fill-available;
@@ -37,8 +42,7 @@
 .setprofile-upload-images-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 1vh;
-    padding: 1vh 0;
+    gap: 5px;
 }
 
 .setprofile-upload-images-sub-wrapper {
@@ -51,6 +55,7 @@
 .setprofile-upload-image-box {
     width: 11vw;
     height: 22vh;
+    height: 22svh;
     border: 1px dashed gray;
     background: white;
     display: flex;
