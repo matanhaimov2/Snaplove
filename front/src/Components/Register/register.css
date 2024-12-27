@@ -31,7 +31,8 @@
 
 .register-snaplove-icon {
     width: 65px;
-    height: fit-content;
+    height: auto;
+    object-fit: contain;
 }
 
 .register-snaplove-title-wrapper {
