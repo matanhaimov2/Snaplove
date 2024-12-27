@@ -36,7 +36,8 @@
 
 .login-snaplove-icon {
     width: 65px;
-    height: fit-content;
+    height: auto;
+    object-fit: contain;
 }
 
 .login-loading-wrapper {
