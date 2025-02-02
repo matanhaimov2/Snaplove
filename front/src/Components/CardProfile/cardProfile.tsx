@@ -6,10 +6,8 @@ import { useGesture } from 'react-use-gesture';
 import './cardProfile.css';
 
 // React MUI
-import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
-import TabContext from '@mui/lab/TabContext';
-import TabList from '@mui/lab/TabList';
+import { Box, Tab } from '@mui/material';
+import { TabContext, TabList } from '@mui/lab';
 
 // React Icons
 import { TiDelete, TiHeart } from "react-icons/ti";

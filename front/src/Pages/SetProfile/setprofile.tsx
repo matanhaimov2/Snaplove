@@ -8,16 +8,10 @@ import './setprofile.css';
 import snap_icon from '../../Assets/Images/SnapLove_Icon.png'
 
 // React MUI
-import Sheet from '@mui/joy/Sheet';
-import FormControl from '@mui/joy/FormControl';
-import InputLabel from '@mui/material/InputLabel';
-import MenuItem from '@mui/material/MenuItem';
+import { Sheet, FormControl } from '@mui/joy';
+import { InputLabel, MenuItem, CircularProgress, Alert, Button, IconButton, Box, TextField } from '@mui/material';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-import CircularProgress from '@mui/material/CircularProgress';
-import Alert from '@mui/material/Alert';
-import { Button, IconButton, Box } from '@mui/material';
 import { AddAPhoto, Delete } from '@mui/icons-material';
-import TextField from '@mui/material/TextField';
 
 // Redux
 import { useDispatch } from 'react-redux';

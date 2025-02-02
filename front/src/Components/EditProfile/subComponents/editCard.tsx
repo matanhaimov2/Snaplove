@@ -3,12 +3,9 @@ import Swal from 'sweetalert2'
 
 // React MUI
 import FormControl from '@mui/joy/FormControl';
-import MenuItem from '@mui/material/MenuItem';
+import { MenuItem, IconButton, Box, TextField, CircularProgress } from '@mui/material';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
-import { IconButton, Box } from '@mui/material';
 import { AddAPhoto, Delete } from '@mui/icons-material';
-import TextField from '@mui/material/TextField';
-import CircularProgress from '@mui/material/CircularProgress';
 
 // Redux
 import { useSelector, useDispatch } from 'react-redux';

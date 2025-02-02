@@ -2,11 +2,7 @@ import { useEffect, useState, useRef } from 'react';
 import Swal from 'sweetalert2'
 
 // React MUI
-import Paper from '@mui/material/Paper';
-import Backdrop from '@mui/material/Backdrop';
-import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
-import CircularProgress from '@mui/material/CircularProgress';
+import { Paper, Backdrop, Button, Box, CircularProgress } from '@mui/material';
 
 // Hooks
 import useAxiosPrivate from '../../../../../Hooks/usePrivate';
@@ -44,7 +40,7 @@ export default function UnMatch({ room_id }: UnmatchProps) {
             document.removeEventListener('click', handleClickOutside, true);
         };
     }, [open]);
-    
+
     const handleUnmatch = async () => {
         const data = {
             room_id: room_id
@@ -86,7 +82,7 @@ export default function UnMatch({ room_id }: UnmatchProps) {
 
     return (
         <div>
-            <Button sx={{fontFamily: 'Montserrat, sans-serif'}} onClick={() => setOpen(true)}>Unmatch</Button>
+            <Button sx={{ fontFamily: 'Montserrat, sans-serif' }} onClick={() => setOpen(true)}>Unmatch</Button>
             <Backdrop open={open} sx={(theme) => ({ color: '#fff', zIndex: theme.zIndex.drawer + 1 })}>
                 <Box ref={closeRef}
                     sx={{

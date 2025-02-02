@@ -7,14 +7,8 @@ import './login.css';
 import snap_icon from '../../Assets/Images/SnapLove_Icon.png'
 
 // React MUI
-import Sheet from '@mui/joy/Sheet';
-import FormControl from '@mui/joy/FormControl';
-import FormLabel from '@mui/joy/FormLabel';
-import Input from '@mui/joy/Input';
-import Button from '@mui/joy/Button';
-import Alert from '@mui/material/Alert';
-import CircularProgress from '@mui/material/CircularProgress';
-import Box from '@mui/material/Box';
+import { Sheet, FormControl, FormLabel, Input, Button } from '@mui/joy';
+import { Alert, CircularProgress, Box } from '@mui/material';
 
 // Components
 import GoogleLoginButton from './subComponents/GoogleLoginButton';

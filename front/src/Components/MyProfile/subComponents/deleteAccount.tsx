@@ -1,11 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 
 // React MUI
-import Paper from '@mui/material/Paper';
-import Backdrop from '@mui/material/Backdrop';
-import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
-import CircularProgress from '@mui/material/CircularProgress';
+import { Paper, Backdrop, Button, Box, CircularProgress } from '@mui/material';
 
 // Hooks
 import useDeleteAccount from '../../../Hooks/auth/useDeleteAccount';
