@@ -4,8 +4,7 @@ import { useEffect, useState } from 'react';
 import './myProfile.css';
 
 // React MUI
-import Slider from '@mui/material/Slider';
-import MenuItem from '@mui/material/MenuItem';
+import { Slider, MenuItem } from '@mui/material';
 import Select, { SelectChangeEvent } from '@mui/material/Select';
 
 // React Icons

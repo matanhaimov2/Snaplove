@@ -9,17 +9,13 @@ import logo from '../../Assets/Images/SnapLove_phone_logo.png'
 
 // React Icons
 import { FaUserCircle } from "react-icons/fa";
-import { LuArrowLeftSquare } from "react-icons/lu";
-import { LuArrowRightSquare } from "react-icons/lu";
-import { PiUserFill } from "react-icons/pi";
-import { PiChatsCircleFill } from "react-icons/pi";
+import { LuArrowLeftSquare, LuArrowRightSquare } from "react-icons/lu";
+import { PiUserFill, PiChatsCircleFill } from "react-icons/pi";
 import { MdSwipe } from "react-icons/md";
 
 // React MUI
-import Box from '@mui/material/Box';
-import Tab from '@mui/material/Tab';
-import TabContext from '@mui/lab/TabContext';
-import TabList from '@mui/lab/TabList';
+import { Box, Tab } from '@mui/material';
+import { TabContext, TabList } from '@mui/lab';
 
 // Redux
 import { useSelector } from 'react-redux';

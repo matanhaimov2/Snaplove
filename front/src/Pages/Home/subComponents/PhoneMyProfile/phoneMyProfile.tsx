@@ -4,10 +4,8 @@ import './phoneMyProfile.css';
 // Components
 import EditProfile from '../../../../Components/EditProfile/editProfile';
 import MyProfile from '../../../../Components/MyProfile/myProfile';
-import { useTheme } from '../../../../Components/Theme/ThemeContext';
 import MaterialUISwitch from '../../../../Components/Theme/MaterialUISwitch';
-
-// Interfaces
+import { useTheme } from '../../../../Components/Theme/ThemeContext';
 
 function PhoneMyProfile() {
     const { theme, toggleTheme } = useTheme();

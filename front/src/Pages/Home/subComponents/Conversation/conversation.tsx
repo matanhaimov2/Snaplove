@@ -298,7 +298,7 @@ function Conversation({ room_id, first_name, user_img, setIsConversationOpen, is
 
                 </div>
 
-                <input type="text" style={{ color: theme === 'dark' ? 'white' : 'black' }} className='conversation-send-text' name="message" placeholder="Type a message" value={message} onChange={(event) => setMessage(event.target.value)} />
+                <input type="text" style={{ color: theme === 'dark' ? 'white' : 'black' }} className='conversation-send-text' placeholder="Type a message" value={message} onChange={(event) => setMessage(event.target.value)} />
                 <button type='submit' className='conversation-send-submit' value="Send"> SEND </button>
             </form>
         </div>
