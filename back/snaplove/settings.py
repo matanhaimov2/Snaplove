@@ -28,7 +28,7 @@ USE_LOCAL_DB = config('USE_LOCAL_DB', default=False, cast=bool)
 # - If True => local cache applyed, If False - server cache (Redis Cloud) applyed
 USE_LOCAL_CACHE = config('USE_LOCAL_CACHE', default=False, cast=bool)
 NEON_PASSWORD = config('NEON_PASSWORD')
-REDIS_PASSWORD = config('REDIS_PASSWORD')
+REDIS_ENDPOINT = config('REDIS_ENDPOINT')
 
 # CORS settings from .env
 CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS', default='http://localhost:3000,http://localhost').split(',')
@@ -93,7 +93,7 @@ else:
             "BACKEND": "channels_redis.core.RedisChannelLayer",
             "CONFIG": {
                 "hosts": [
-                    f"redis://:{REDIS_PASSWORD}@redis-11596.c6.eu-west-1-1.ec2.redns.redis-cloud.com:11596/0"
+                    REDIS_ENDPOINT
                 ],
             },
         },
